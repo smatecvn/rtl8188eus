@@ -18,8 +18,13 @@
 * MESH Support
 * Monitor mode
 * Frame injection
-* Up to kernel v6.5+
+* Up to kernel v6.9+
 ... And a bunch of various wifi chipsets
+
+# Note
+
+Driver `rtl8xxxu` coming with newer kernels supports **monitor** mode so use it before trying this one
+
 
 # Howto build/install
 1. Compile and install the driver:
